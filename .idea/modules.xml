@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PR05-OrientationChange-Base.iml" filepath="$PROJECT_DIR$/PR05-OrientationChange-Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IRP-PR05-OrientationChange.iml" filepath="$PROJECT_DIR$/IRP-PR05-OrientationChange.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

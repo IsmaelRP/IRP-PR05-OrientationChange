@@ -3,12 +3,44 @@
     android:id="@+id/clRoot"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <!-- TODO -->
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/imgAvatar_descr"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat1"
+        app:layout_constraintDimensionRatio="@string/img_dimenRatio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- TODO: Include activity_main_xml -->
+    <TextView
+        android:id="@+id/lblAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/lblAvatar_margin"
+        android:layout_marginBottom="@dimen/lblAvatar_margin"
+        android:padding="@dimen/lbl_txt_margin_padding"
+        android:text="@string/lblAvatar_text"
+        android:textSize="@dimen/lblAvatar_textSize"
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/activity_avatar_label_background"
+        android:textColor="@color/white"
+        android:layout_marginStart="@dimen/lbl_margin"/>
+
+
+    <include
+        android:id="@+id/includeForm"
+        layout="@layout/activity_main_profile"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/lbl_txt_margin_padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,10 +1,46 @@
 <resources>
-    <string name="app_name">Profile</string>
+    <string name="app_name">OrientationChange</string>
     <string name="avatar_label">Select Avatar</string>
     <string name="main_invalid_data">Invalid data</string>
     <string name="main_save">Save</string>
     <string name="main_saved_succesfully">Student saved successfully</string>
     <string name="main_error_saving">Error saving student</string>
     <string name="avatar_select">Select</string>
-    <!-- TODO -->
+
+    <string name="img_dimenRatio">H,16:9</string>
+    <string name="lblName_text">Name</string>
+    <string name="txtName_hint">(name)</string>
+    <string name="lblEmail_text">Email</string>
+    <string name="txtEmail_hint">(email)</string>
+    <string name="imgAvatar_descr">Image of user\'s imageAvatar (cats)</string>
+    <string name="imgEmail_descr">Icon of a email</string>
+    <string name="lblPhone_text">Phone number</string>
+    <string name="txtPhone_hint">(phone)</string>
+    <string name="imgPhone_descr">Image of a phone</string>
+    <string name="lblAddress_text">Address</string>
+    <string name="txtAddress_hint">(address)</string>
+    <string name="lblWeb_text">Web</string>
+    <string name="txtWeb_hint">(url)</string>
+    <string name="imgAddress_descr">Image of a map (address)</string>
+    <string name="imgWeb_descr">Image of a website (web)</string>
+    <string name="lblAvatar_text">Tom</string>
+    <string name="lblCat1_text">Tom</string>
+    <string name="lblCat2_text">Luna</string>
+    <string name="lblCat3_text">Simba</string>
+    <string name="lblCat4_text">Kitty</string>
+    <string name="lblCat5_text">Felix</string>
+    <string name="lblCat6_text">Nina</string>
+    <string name="error_email">You need an email App</string>
+    <string name="email_subject">This is an important email</string>
+    <string name="email_text">I\'m a very important message.</string>
+    <string name="error_phonenumber">You need a dial App</string>
+    <string name="error_address">You need a maps App</string>
+    <string name="imgAvatar1_descr">Image of Tom, the cat</string>
+    <string name="imgAvatar2_descr">Image of Luna, the cat</string>
+    <string name="imgAvatar3_descr">Image of Simba, the cat</string>
+    <string name="imgAvatar4_descr">Image of Kitty, the cat</string>
+    <string name="imgAvatar5_descr">Image of Felix, the cat</string>
+    <string name="imgAvatar6_descr">Image of Nina, the cat</string>
+    <string name="error_web">You need a browser App</string>
+
 </resources>

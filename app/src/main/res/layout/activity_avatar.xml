@@ -8,6 +8,154 @@
     android:layout_height="match_parent"
     tools:context=".ui.avatar.AvatarActivity">
 
-    <!-- TODO -->
+    <ImageView
+        android:id="@+id/imgAvatar1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat1"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar3"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/imgAvatar1_descr" />
+
+    <TextView
+        android:id="@+id/lblAvatar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/lbl_margin"
+        android:layout_marginBottom="@dimen/lbl_margin"
+        android:text="@string/lblCat1_text"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar3"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar2"
+        android:background="@color/activity_avatar_label_background"
+        android:textColor="@color/white"
+        android:padding="@dimen/lbl_padding"/>
+
+    <ImageView
+        android:id="@+id/imgAvatar2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/cat2"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgAvatar1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/imgAvatar2_descr" />
+
+    <TextView
+        android:id="@+id/lblAvatar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/lbl_margin"
+        android:layout_marginBottom="@dimen/lbl_margin"
+        android:text="@string/lblCat2_text"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar4"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/activity_avatar_label_background"
+        android:textColor="@color/white"
+        android:padding="@dimen/lbl_padding"/>
+
+    <ImageView
+        android:id="@+id/imgAvatar3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/cat3"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar5"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar1"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/imgAvatar3_descr" />
+
+    <TextView
+        android:id="@+id/lblAvatar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/lbl_margin"
+        android:layout_marginBottom="@dimen/lbl_margin"
+        android:text="@string/lblCat3_text"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar5"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar4"
+        android:background="@color/activity_avatar_label_background"
+        android:textColor="@color/white"
+        android:padding="@dimen/lbl_padding"/>
+
+    <ImageView
+        android:id="@+id/imgAvatar4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/cat4"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgAvatar3"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar2"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/imgAvatar4_descr" />
+
+    <TextView
+        android:id="@+id/lblAvatar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/lbl_margin"
+        android:layout_marginBottom="@dimen/lbl_margin"
+        android:text="@string/lblCat4_text"
+        app:layout_constraintBottom_toTopOf="@+id/imgAvatar6"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar4"
+        android:background="@color/activity_avatar_label_background"
+        android:textColor="@color/white"
+        android:padding="@dimen/lbl_padding"/>
+
+    <ImageView
+        android:id="@+id/imgAvatar5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/cat5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar3"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/imgAvatar5_descr" />
+
+    <TextView
+        android:id="@+id/lblAvatar5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/lbl_margin"
+        android:layout_marginBottom="@dimen/lbl_margin"
+        android:text="@string/lblCat5_text"
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar5"
+        app:layout_constraintEnd_toStartOf="@+id/imgAvatar6"
+        android:background="@color/activity_avatar_label_background"
+        android:textColor="@color/white"
+        android:padding="@dimen/lbl_padding"/>
+
+    <ImageView
+        android:id="@+id/imgAvatar6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@drawable/cat6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imgAvatar5"
+        app:layout_constraintTop_toBottomOf="@+id/imgAvatar4"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/imgAvatar6_descr" />
+
+    <TextView
+        android:id="@+id/lblAvatar6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/lbl_margin"
+        android:layout_marginBottom="@dimen/lbl_margin"
+        android:text="@string/lblCat6_text"
+        app:layout_constraintBottom_toBottomOf="@+id/imgAvatar6"
+        app:layout_constraintEnd_toEndOf="@+id/imgAvatar6"
+        android:background="@color/activity_avatar_label_background"
+        android:textColor="@color/white"
+        android:padding="@dimen/lbl_padding"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

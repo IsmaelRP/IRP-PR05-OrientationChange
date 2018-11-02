@@ -4,9 +4,11 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="avatar_label_background">#88888888</color>
+    <color name="colorDisabled">#88000000</color>
+    <color name="activity_avatar_label_background">#88888888</color>
+    <color name="activity_avatar_selected_background">#88AAAAAA</color>
     <color name="colorBlack">#000000</color>
     <color name="colorError">#FF0000</color>
-    <color name="pressed">#2E7D32</color>
+    <color name="colorPressed">#2E7D32</color>
     <color name="white">#FFFFFF</color>
 </resources>
